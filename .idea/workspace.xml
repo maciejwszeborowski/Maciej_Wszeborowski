@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9e157a2-9bc0-4385-b622-0bd0a7cf40b1" name="Changes" comment="Zadanie 0">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compackage/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compackage/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compackage/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compackage/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compackage/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compackage/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compackage/Main.java" afterDir="false" />
     </list>
@@ -74,6 +73,17 @@
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
