@@ -1,11 +1,17 @@
 package devices;
 
-public class Car {
+public class Car extends Device {
     public int value;
     int wheels;
     int mileage;
     public String model;
-    public String producer;
+
+    @Override
+    public void turnOn() {
+        mode = true;
+        System.out.println("samochód włączono");
+
+    }
 
     @Override
     public String toString() {

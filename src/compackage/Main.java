@@ -15,20 +15,21 @@ public class Main {
         challenger.producer = "FSO";
         challenger.model = "Polonez";
         challenger.value = 15000;
-        Car rusty = new Car();
-        rusty.producer = "FSO";
-        rusty.model = "Polonez";
-        rusty.value = 15000;
-        System.out.println(challenger == rusty);
-        System.out.println(challenger);
-        System.out.println(rusty);
-        Human roman = new Human();
-        roman.setSalary(5000D);
-        System.out.println(roman);
-        Animal dzik = new Animal("dzik", 100000D);
-        System.out.println(dzik);
+        challenger.turnOn();
+//        Car rusty = new Car();
+//        rusty.producer = "FSO";
+//        rusty.model = "Polonez";
+//        rusty.value = 15000;
+//        System.out.println(challenger == rusty);
+//        System.out.println(challenger);
+//        System.out.println(rusty);
+//        Human roman = new Human();
+//        roman.setSalary(5000D);
+//        System.out.println(roman);
+//        Animal dzik = new Animal("dzik", 100000D);
+//        System.out.println(dzik);
         Phone xiaomi = new Phone();
-        System.out.println(xiaomi);
+        xiaomi.turnOn();
 
 //        roman.setSalary(50D);
 //        roman.setCar(rusty);//roman ma za mało kaski
