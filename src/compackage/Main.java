@@ -13,5 +13,11 @@ public class Main {
     rusty.model="Polonez";
     Human roman = new Human();
     roman.car = rusty;
+
+    roman.getSalary();
+    roman.setSalary(1000D);
+    roman.getSalary();
+    roman.setSalary(10000D);
+    roman.getSalary();
     }
 }
