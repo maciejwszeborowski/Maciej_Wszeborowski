@@ -1,5 +1,7 @@
 package compackage;
 
+import devices.Car;
+
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -45,5 +47,15 @@ public class Human {
 
         } else System.out.println("Hola, hola, wypłata ujemna");
 
+    }
+
+    @Override
+    public String toString() {
+        return "Human{" +
+                "pet=" + pet +
+                ", car=" + car +
+                ", salary=" + salary +
+                ", logi=" + logi +
+                '}';
     }
 }

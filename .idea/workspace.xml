@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9e157a2-9bc0-4385-b622-0bd0a7cf40b1" name="Changes" comment="Zadanie 3i4">
+    <list default="true" id="f9e157a2-9bc0-4385-b622-0bd0a7cf40b1" name="Changes" comment="Zadanie 5">
+      <change afterPath="$PROJECT_DIR$/src/devices/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devices/Phone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compackage/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compackage/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compackage/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compackage/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compackage/Car.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compackage/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compackage/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compackage/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compackage/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compackage/Phone.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +47,18 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="devices" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="compackage.Main" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="compackage.*" />
+          <option name="PATTERN" value="devices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674585811174</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Zadanie 5">
+      <created>1674590512878</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674590512878</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,14 +142,15 @@
     <MESSAGE value="Zadanie 0" />
     <MESSAGE value="Zadanie 2" />
     <MESSAGE value="Zadanie 3i4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 3i4" />
+    <MESSAGE value="Zadanie 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/compackage/Main.java</url>
-          <line>7</line>
+          <line>10</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
