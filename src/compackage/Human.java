@@ -13,6 +13,8 @@ public class Human {
     private Double salary;
     private List<Rekord> logi = new ArrayList<>();
 
+    public Double cash;
+
     public Car getCar() {
         return car;
     }
