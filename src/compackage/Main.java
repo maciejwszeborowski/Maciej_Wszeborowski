@@ -1,11 +1,24 @@
 package compackage;
 
+import Creatures.FarmAnimal;
+import Creatures.Pet;
 import devices.Car;
 import devices.Phone;
 
 public class Main {
     public static void main(String[] args) {
-     /*   Animal mordechaj = new Animal("dzik", 200D);
+        FarmAnimal laciata = new FarmAnimal("krowa", 500D);
+        FarmAnimal nioska = new FarmAnimal("kura",1D);
+        Pet szarik = new Pet("pies", 25D);
+        System.out.println(laciata);
+        laciata.feed();
+        System.out.println(laciata);
+        nioska.beEaten();
+        System.out.println(szarik);
+        szarik.feed(1.5D);
+        System.out.println(szarik);
+
+        /*   Animal mordechaj = new Animal("dzik", 200D);
         mordechaj.feed();
         mordechaj.takeForAWalk();
         for (int x = 0; x <= 10; x++) {
@@ -28,18 +41,18 @@ public class Main {
 //        System.out.println(roman);
 //        Animal dzik = new Animal("dzik", 100000D);
 //        System.out.println(dzik);
-        Human Janusz = new Human(); //seller
-        Human Arkadiusz = new Human();//buyer
-        Phone xiaomi = new Phone();
-        Animal pet = new  Animal("kotek", 2D);
-        Janusz.pet = pet;
-        Janusz.cash = 50000D;
-        Arkadiusz.cash = 350D;
-        System.out.println(Janusz);
-        System.out.println(Arkadiusz);
-        pet.sell(Janusz, Arkadiusz, 320D);
-        System.out.println(Janusz);
-        System.out.println(Arkadiusz);
+//        Human Janusz = new Human(); //seller
+//        Human Arkadiusz = new Human();//buyer
+//        Phone xiaomi = new Phone();
+//        Animal pet = new  Animal("kotek", 2D);
+//        Janusz.pet = pet;
+//        Janusz.cash = 50000D;
+//        Arkadiusz.cash = 350D;
+//        System.out.println(Janusz);
+//        System.out.println(Arkadiusz);
+//        pet.sell(Janusz, Arkadiusz, 320D);
+//        System.out.println(Janusz);
+//        System.out.println(Arkadiusz);
 //        xiaomi.turnOn();
 
 //        roman.setSalary(50D);

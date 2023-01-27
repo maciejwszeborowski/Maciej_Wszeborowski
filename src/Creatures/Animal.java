@@ -1,6 +1,9 @@
-package compackage;
+package Creatures;
 
-public class Animal implements Salleable {
+import compackage.Human;
+import compackage.Salleable;
+
+public abstract class Animal implements Salleable, Feedable {
 
     final String species;
     private Double weight;
@@ -20,9 +23,14 @@ public class Animal implements Salleable {
         this.weight = weight;
     }
 
-    void feed() {
+    public void feed() {
         weight = weight + 1;
         System.out.println(weight);
+    }
+
+    public void feed(double foodweight) {
+        weight = weight + foodweight;
+        System.out.println(foodweight);
     }
 
     void takeForAWalk() {

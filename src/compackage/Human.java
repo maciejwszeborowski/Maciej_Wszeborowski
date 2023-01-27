@@ -1,5 +1,6 @@
 package compackage;
 
+import Creatures.Animal;
 import devices.Car;
 import devices.Device;
 
@@ -8,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Human {
-    Animal pet;
+    public Animal pet;
     public Device device;
     private Car car;
 
