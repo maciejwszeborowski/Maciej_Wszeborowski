@@ -1,6 +1,7 @@
 package compackage;
 
 import devices.Car;
+import devices.Device;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -8,6 +9,7 @@ import java.util.List;
 
 public class Human {
     Animal pet;
+    public Device device;
     private Car car;
 
     private Double salary;

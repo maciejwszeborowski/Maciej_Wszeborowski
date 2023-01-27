@@ -11,12 +11,12 @@ public class Main {
         for (int x = 0; x <= 10; x++) {
             mordechaj.takeForAWalk();
         }*/
-        Car challenger = new Car();
-        challenger.producer = "FSO";
-        challenger.model = "Polonez";
-        challenger.value = 15000;
-        challenger.turnOn();
-//        Car rusty = new Car();
+//        Car challenger = new Car();
+//        challenger.producer = "FSO";
+//        challenger.model = "Polonez";
+//        challenger.value = 15000;
+//        challenger.turnOn();
+////        Car rusty = new Car();
 //        rusty.producer = "FSO";
 //        rusty.model = "Polonez";
 //        rusty.value = 15000;
@@ -28,8 +28,19 @@ public class Main {
 //        System.out.println(roman);
 //        Animal dzik = new Animal("dzik", 100000D);
 //        System.out.println(dzik);
+        Human Janusz = new Human(); //seller
+        Human Arkadiusz = new Human();//buyer
         Phone xiaomi = new Phone();
-        xiaomi.turnOn();
+        Animal pet = new  Animal("kotek", 2D);
+        Janusz.pet = pet;
+        Janusz.cash = 50000D;
+        Arkadiusz.cash = 350D;
+        System.out.println(Janusz);
+        System.out.println(Arkadiusz);
+        pet.sell(Janusz, Arkadiusz, 320D);
+        System.out.println(Janusz);
+        System.out.println(Arkadiusz);
+//        xiaomi.turnOn();
 
 //        roman.setSalary(50D);
 //        roman.setCar(rusty);//roman ma za mało kaski

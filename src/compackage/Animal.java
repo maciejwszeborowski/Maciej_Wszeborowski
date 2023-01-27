@@ -1,6 +1,7 @@
 package compackage;
 
-public class Animal {
+public class Animal implements Salleable {
+
     final String species;
     private Double weight;
   /*  Animal(String species, Double weight) {
@@ -38,5 +39,22 @@ public class Animal {
                 "species='" + species + '\'' +
                 ", weight=" + weight +
                 '}';
+    }
+
+    @Override
+    public void sell(Human seller, Human buyer, Double price) {
+        if (seller.pet != this){
+            System.out.println("Nie posiadasz towaru do sprzedania scamerze!");
+            return ;
+        }
+        if (buyer.cash<price){
+            System.out.println("Nie posiadasz odpowiednio ciężkiej walizki z kabzą!");
+            return;
+        }
+        buyer.cash = buyer.cash - price;
+        seller.cash = seller.cash + price;
+        buyer.pet = seller.pet;
+        seller.pet = null;
+        System.out.println("Dobito targu, zwierzątko jest Twoje");
     }
 }

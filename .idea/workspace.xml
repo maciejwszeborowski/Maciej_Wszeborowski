@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9e157a2-9bc0-4385-b622-0bd0a7cf40b1" name="Changes" comment="Zadanie 7">
+    <list default="true" id="f9e157a2-9bc0-4385-b622-0bd0a7cf40b1" name="Changes" comment="Zadanie 7 proper">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compackage/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compackage/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compackage/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compackage/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compackage/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compackage/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devices/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Device.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674596151502</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Zadanie 7 proper">
+      <created>1674846733847</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674846733847</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,7 +164,8 @@
     <MESSAGE value="Zadanie 5" />
     <MESSAGE value="Zadanie 6" />
     <MESSAGE value="Zadanie 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 7" />
+    <MESSAGE value="Zadanie 7 proper" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 7 proper" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
