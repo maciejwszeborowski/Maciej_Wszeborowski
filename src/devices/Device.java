@@ -8,7 +8,9 @@ public abstract class Device implements Salleable {
     public String producer;
     int yearOfProduction;
     boolean mode;
-public abstract void turnOn();
+
+    public abstract void turnOn();
+
     @Override
     public String toString() {
         return "Device{" +
@@ -18,12 +20,13 @@ public abstract void turnOn();
                 '}';
 
     }
+
     public void sell(Human seller, Human buyer, Double price) {
-        if (seller.device != this){
+        if (seller.device != this) {
             System.out.println("Nie posiadasz towaru do sprzedania scamerze!");
-            return ;
+            return;
         }
-        if (seller.cash<price){
+        if (seller.cash < price) {
             System.out.println("Nie posiadasz odpowiednio ciężkiej walizki z kabzą!");
             return;
         }

@@ -1,10 +1,12 @@
 package devices;
 
-public class Car extends Device {
+public abstract class Car extends Device {
     public int value;
     int wheels;
     int mileage;
     public String model;
+
+    public abstract void refuel();
 
     @Override
     public void turnOn() {
