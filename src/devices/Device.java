@@ -6,8 +6,9 @@ import compackage.Salleable;
 public abstract class Device implements Salleable {
 
     public String producer;
-    int yearOfProduction;
+    public int yearOfProduction;
     boolean mode;
+    public Double value;
 
     public abstract void turnOn();
 
